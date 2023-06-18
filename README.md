@@ -2,7 +2,7 @@
 - 👀 I’m interested in something
 - 🌱 I’m currently learning BE
 - 💞️ I’m looking to collaborate on website design so please do share your idea's
-- 📫 How to reach me ...
+- 📫 How to reach me vinaykumbar01@gmail.com
 
 <!---
 vinaykumbar18/vinaykumbar18 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
