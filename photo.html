@@ -1,0 +1,320 @@
+<html>
+<head>
+<style>
+div
+{
+display:flex;
+justify-content:centr;
+align-items:center;
+flex-wrap:wrap;
+}
+
+img{
+width:350px;
+height:200px;
+border-radius:4px;
+box-shadow:2px 4px 4px 0px green;
+cursor:pointer;
+margin:10px;
+transition:400ms;
+}
+
+div img:hover{
+transform:scale(1.03);
+}
+
+body{
+background-image:url('bg.jpg');
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-attachment:fixed;
+}
+
+h2{
+background-color:lightgreen;
+border-radius:10px;
+font-family:Times new roman;
+
+color:rgb(20,100,0);
+}
+
+
+
+
+
+.a{
+display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  text-align:center;
+  
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>	
+</head>
+<title>
+Photo Gallery
+</title>
+	<body style=>
+	<center><h2 style="color:green;font-family:Comic Sans MS">National parks in karnataka</h2></center>
+	<div>
+	<img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\Bandipur.jpg" width="350" height="200" id="img1">
+	<img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\Bannerghatta National Park.jpg" width="350" height="200" id="img2">
+	<img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\Bannerghatta_National_Park.jpg" width="350" height="200" id="img3">
+	
+	<img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\Bannerghatta-National-Park.jpg" width="350" height="200" id="img4">
+	<img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\Bengal-Tiger.jpg" width="350" height="200" id="img5">
+	<img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\Deer-Anshi-National-Park-.jpg" width="350" height="200" id="img6">
+	<img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\Gray-Langur-in-National-Park.jpg" width="350" height="200" id="img7">
+	
+	<img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\Kudremukh-National-Park.jpg" width="350" height="200" id="img8">
+	<img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\Nagarhole-National-Park.jpg" width="350" height="200" id="img9">
+	<!--<img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\h.jpg" width="350" height="200" id="img10">-->
+	</div>
+		
+	<div class="a" id="ab1">
+	<span class="close" id="a">&times;</span>
+	<span><img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\Bandipur.jpg" width="350" height="200" id="im1"></span>
+	</div>
+	
+	<div class="a" id="ab2">
+	<span class="close" id="b">&times;</span>
+	<span><img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\Bannerghatta National Park.jpg" width="350" height="200" id="im2"></span>
+	</div>
+	
+	<div class="a" id="ab3">
+	<span class="close" id="c">&times;</span>
+	<span><img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\Bannerghatta_National_Park.jpg" width="350" height="200" id="im3"></span>
+	</div>
+	
+	<div class="a" id="ab4">
+	<span class="close" id="d">&times;</span>
+	<span><img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\Bannerghatta-National-Park.jpg" width="350" height="200" id="im4"></span>
+	</div>
+	
+	<div class="a" id="ab5">
+	<span class="close" id="e">&times;</span>
+	<span><img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\Bengal-Tiger.jpg" width="350" height="200" id="im5"></span>
+	</div>
+	
+	<div class="a" id="ab6">
+	<span class="close" id="f">&times;</span>
+	<span><img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\Deer-Anshi-National-Park-.jpg" width="350" height="200" id="im6"></span>
+	</div>
+	
+	<div class="a" id="ab7">
+	<span class="close" id="g">&times;</span>
+	<span><img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\Gray-Langur-in-National-Park.jpg" width="350" height="200" id="im7"></span>
+	</div>
+	
+	<div class="a" id="ab8">
+	<span class="close" id="h">&times;</span>
+	<span><img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\Kudremukh-National-Park.jpg" width="350" height="200" id="im8"></span>
+	</div>
+	
+	<div class="a" id="ab9">
+	<span class="close" id="i">&times;</span>
+	<span><img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\Nagarhole-National-Park.jpg.jpg" width="350" height="200" id="im9"></span>
+	</div>
+	
+	<!--<div class="a" id="ab10">
+	<span class="close" id="j">&times;</span>
+	<span><img src="C:\Users\princ\OneDrive\Desktop\webminiproj\image\th.jpg" width="350" height="200" id="im10"></span>-->
+	</div>
+	
+	
+<script>
+	var modal1 = document.getElementById("ab1");
+	var img1 = document.getElementById("img1");
+	var modalImg1 = document.getElementById("im1");
+	var a=document.getElementById("a");
+	
+	var modal2 = document.getElementById("ab2");
+	var img2 = document.getElementById("img2");
+	var modalImg2 = document.getElementById("im2");
+	var b=document.getElementById("b");
+	
+	var modal3 = document.getElementById("ab3");
+	var img3 = document.getElementById("img3");
+	var modalImg3 = document.getElementById("im3");
+	var c=document.getElementById("c");
+	
+	var modal4 = document.getElementById("ab4");
+	var img4 = document.getElementById("img4");
+	var modalImg4 = document.getElementById("im4");
+	var d=document.getElementById("d");
+	
+	var modal5 = document.getElementById("ab5");
+	var img5 = document.getElementById("img5");
+	var modalImg5 = document.getElementById("im5");
+	var e=document.getElementById("e");
+	
+	var modal6 = document.getElementById("ab6");
+	var img6 = document.getElementById("img6");
+	var modalImg6 = document.getElementById("im6");
+	var f=document.getElementById("f");
+	
+	var modal7 = document.getElementById("ab7");
+	var img7 = document.getElementById("img7");
+	var modalImg7 = document.getElementById("im7");
+	var g=document.getElementById("g");
+	
+	var modal8 = document.getElementById("ab8");
+	var img8 = document.getElementById("img8");
+	var modalImg8 = document.getElementById("im8");
+	var h=document.getElementById("h");
+	
+	var modal9 = document.getElementById("ab9");
+	var img9 = document.getElementById("img9");
+	var modalImg9 = document.getElementById("im9");
+	var i=document.getElementById("i");
+	
+	/*var modal10 = document.getElementById("ab10");
+	var img10 = document.getElementById("img10");
+	var modalImg10 = document.getElementById("im10");
+	var j=document.getElementById("j");
+	*/
+	
+	img1.onclick = function(){
+	modal1.style.display = "block";
+	modalImg1.src = this.src;
+	modalImg1.style.width="50%"
+	modalImg1.style.height="60%"
+	modalImg1.style.boxShadow="none";
+	}
+	
+	img2.onclick = function(){
+	modal2.style.display = "block";
+	modalImg2.src = this.src;
+	modalImg2.style.width="50%"
+	modalImg2.style.height="60%"
+	modalImg2.style.boxShadow="none";
+	}
+	
+	img3.onclick = function(){
+	modal3.style.display = "block";
+	modalImg3.src = this.src;
+	modalImg3.style.width="50%"
+	modalImg3.style.height="60%"
+	modalImg3.style.boxShadow="none";
+	}
+	
+	img4.onclick = function(){
+	modal4.style.display = "block";
+	modalImg4.src = this.src;
+	modalImg4.style.width="50%"
+	modalImg4.style.height="60%"
+	modalImg4.style.boxShadow="none";
+	}
+	
+	img5.onclick = function(){
+	modal5.style.display = "block";
+	modalImg5.src = this.src;
+	modalImg5.style.width="50%"
+	modalImg5.style.height="60%"
+	modalImg5.style.boxShadow="none";
+	}
+	
+	img6.onclick = function(){
+	modal6.style.display = "block";
+	modalImg6.src = this.src;
+	modalImg6.style.width="50%"
+	modalImg6.style.height="60%"
+	modalImg6.style.boxShadow="none";
+	}
+	
+	img7.onclick = function(){
+	modal7.style.display = "block";
+	modalImg7.src = this.src;
+	modalImg7.style.width="50%"
+	modalImg7.style.height="60%"
+	modalImg7.style.boxShadow="none";
+	}
+	
+	img8.onclick = function(){
+	modal8.style.display = "block";
+	modalImg8.src = this.src;
+	modalImg8.style.width="50%"
+	modalImg8.style.height="60%"
+	modalImg8.style.boxShadow="none";
+	}
+	
+	img9.onclick = function(){
+	modal9.style.display = "block";
+	modalImg9.src = this.src;
+	modalImg9.style.width="50%"
+	modalImg9.style.height="60%"
+	modalImg9.style.boxShadow="none";
+	}
+	
+	/*img10.onclick = function(){
+	modal0.style.display = "block";
+	modalImg10.src = this.src;
+	modalImg10.style.width="50%"
+	modalImg10.style.height="60%"
+	modalImg10.style.boxShadow="none";
+	}*/
+	
+a.onclick = function() { 
+  modal1.style.display = "none";
+}
+
+b.onclick = function() { 
+  modal2.style.display = "none";
+}
+c.onclick = function() { 
+  modal3.style.display = "none";
+}
+d.onclick = function() { 
+  modal4.style.display = "none";
+}
+e.onclick = function() { 
+  modal5.style.display = "none";
+}
+f.onclick = function() { 
+  modal6.style.display = "none";
+}
+g.onclick = function() { 
+  modal7.style.display = "none";
+}
+h.onclick = function() { 
+  modal8.style.display = "none";
+}
+i.onclick = function() { 
+  modal9.style.display = "none";
+}
+/*
+j.onclick = function() { 
+  modal10.style.display = "none";
+}
+*/	
+	
+</script>
+
+<center><button onclick="history.back()">BACK</button></center>
+	</body>
+</html>
